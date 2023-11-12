@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const DiscordMusicBot = require("./lib/Main");
+const DiscordBot = require("./lib/Main");
 const { exec } = require("child_process");
 
 if (process.env.REPL_ID) {
@@ -15,6 +15,6 @@ if (process.env.REPL_ID) {
 	});
 }
 
-const client = new DiscordMusicBot();
+const client = new DiscordBot();
 
 module.exports = client;

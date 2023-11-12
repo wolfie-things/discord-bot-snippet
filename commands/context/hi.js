@@ -6,7 +6,7 @@ const {
 
 module.exports = {
   command: new ContextMenuCommandBuilder()
-    .setName("Przywitaj sie z Basia")
+    .setName("Say Hi")
     .setType(ApplicationCommandType.User),
 
   /**
